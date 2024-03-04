@@ -37,7 +37,7 @@ public class Book {
             this.author = author;
         }
         else
-            throw new IllegalArgumentException("Name must be at least 4 characters long");
+            throw new IllegalArgumentException("Author must be at least 2 characters long");
         if (author.contains(" ")){
             author.replace(" ","");
         }
@@ -48,7 +48,10 @@ public class Book {
     }
 
     public void setISBN(String ISBN) {
-        this.ISBN = ISBN;
+        if (ISBN.length()== 13)
+            this.ISBN = ISBN;
+        else
+            throw new IllegalArgumentException("ISBN must be 13 characters long");
     }
 
     public String getCategory() {
