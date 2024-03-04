@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e0e23da-dc83-48fb-a803-418faa5d15b9" name="Changes" comment="1c complete">
+    <list default="true" id="2e0e23da-dc83-48fb-a803-418faa5d15b9" name="Changes" comment="1d complete">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/st1219275test2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/st1219275test2/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709575583757</updated>
-      <workItem from="1709575584828" duration="2510000" />
+      <workItem from="1709575584828" duration="2945000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <option name="closed" value="true" />
@@ -89,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709578036618</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1d complete">
+      <option name="closed" value="true" />
+      <created>1709578193566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709578193566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,7 @@
     <MESSAGE value="1a complete" />
     <MESSAGE value="1b complete" />
     <MESSAGE value="1c complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="1c complete" />
+    <MESSAGE value="1d complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="1d complete" />
   </component>
 </project>

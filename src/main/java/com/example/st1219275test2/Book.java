@@ -1,5 +1,8 @@
 package com.example.st1219275test2;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Book {
     public String title;
     public String author;
@@ -54,12 +57,16 @@ public class Book {
             throw new IllegalArgumentException("ISBN must be 13 characters long");
     }
 
-    public String getCategory() {
-        return category;
+    public static List<String> getCategory() {
+        return Arrays.asList( "Mystery", "Thriller", "Horror", "Historical", "Romance", "Western", "Fantasy", "TextBook", "CookBook", "Self Help", "Fiction", "Indigenous");
     }
 
     public void setCategory(String category) {
-        this.category = category;
+        List<String> validCategory= getCategory();
+        if (validCategory.contains(category))
+            this.category = category;
+        else
+            throw new IllegalArgumentException("Provided category is not valid");
     }
 
     public double getPrice() {
