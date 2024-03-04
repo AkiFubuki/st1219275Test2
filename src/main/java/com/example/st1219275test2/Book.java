@@ -7,12 +7,25 @@ public class Book {
     public String category;
     public double price;
 
+    public Book(String title, String author, String ISBN, String category, String price){
+        setTitle(title);
+        setAuthor(author);
+        setISBN(ISBN);
+        setCategory(category);
+    }
     public String getTitle() {
         return title;
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        if (title.length()>4) {
+            this.title = title;
+        }
+        else
+            throw new IllegalArgumentException("Name must be at least 4 characters long");
+        if (title.contains(" ")){
+            title.replace(" ","");
+        }
     }
 
     public String getAuthor() {
@@ -20,7 +33,14 @@ public class Book {
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        if (author.length()>2) {
+            this.author = author;
+        }
+        else
+            throw new IllegalArgumentException("Name must be at least 4 characters long");
+        if (author.contains(" ")){
+            author.replace(" ","");
+        }
     }
 
     public String getISBN() {

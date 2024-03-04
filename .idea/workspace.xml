@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e0e23da-dc83-48fb-a803-418faa5d15b9" name="Changes" comment="First push">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/st1219275test2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/st1219275test2/Main.java" afterDir="false" />
+    <list default="true" id="2e0e23da-dc83-48fb-a803-418faa5d15b9" name="Changes" comment="1a complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/st1219275test2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/st1219275test2/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709575583757</updated>
-      <workItem from="1709575584828" duration="1302000" />
+      <workItem from="1709575584828" duration="2196000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <option name="closed" value="true" />
@@ -75,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709575780589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1a complete">
+      <option name="closed" value="true" />
+      <created>1709576928896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709576928896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First push" />
-    <option name="LAST_COMMIT_MESSAGE" value="First push" />
+    <MESSAGE value="1a complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="1a complete" />
   </component>
 </project>
