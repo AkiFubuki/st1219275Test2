@@ -23,16 +23,17 @@ public class Library {
 
     }
     public void addBook(String Book){
-
+    Book+=BookObjects;
 
     }
     public void inventoryValue(double price){
-
+    double sum=0;
+    sum=sum+price;
     }
     public void getCategories(){
 
     }
-    public void getBooksInCategory(){
+    public void getBooksInCategory(String categories){
 
     }
 }
