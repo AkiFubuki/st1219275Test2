@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e0e23da-dc83-48fb-a803-418faa5d15b9" name="Changes" comment="1d complete">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/st1219275test2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/st1219275test2/Book.java" afterDir="false" />
+    <list default="true" id="2e0e23da-dc83-48fb-a803-418faa5d15b9" name="Changes" comment="1f complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/st1219275test2/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709575583757</updated>
-      <workItem from="1709575584828" duration="2945000" />
+      <workItem from="1709575584828" duration="3758000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <option name="closed" value="true" />
@@ -97,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709578193566</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1e complete">
+      <option name="closed" value="true" />
+      <created>1709578553489</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709578553489</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1f complete">
+      <option name="closed" value="true" />
+      <created>1709578660268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709578660268</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +125,8 @@
     <MESSAGE value="1b complete" />
     <MESSAGE value="1c complete" />
     <MESSAGE value="1d complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="1d complete" />
+    <MESSAGE value="1e complete" />
+    <MESSAGE value="1f complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="1f complete" />
   </component>
 </project>
