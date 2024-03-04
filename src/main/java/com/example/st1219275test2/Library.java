@@ -7,9 +7,8 @@ public class Library {
     public String streetAddress;
     public ArrayList<Book> BookObjects ;
 
-    public Library(String streetAddress, ArrayList<Book> bookObjects) {
+    public Library(String streetAddress) {
         this.streetAddress = streetAddress;
-        BookObjects = bookObjects;
     }
 
     public String getStreetAddress() {
@@ -17,15 +16,23 @@ public class Library {
     }
 
     public void setStreetAddress(String streetAddress) {
+        if (streetAddress.length()>=10)
+            this.streetAddress = streetAddress;
+        else
+            throw new IllegalArgumentException("the street address has to be 10 characters or more");
 
-        this.streetAddress = streetAddress;
     }
+    public void addBook(String Book){
 
-    public ArrayList<Book> getBookObjects() {
-        return BookObjects;
+
     }
+    public void inventoryValue(double price){
 
-    public void setBookObjects(ArrayList<Book> bookObjects) {
-        BookObjects = bookObjects;
+    }
+    public void getCategories(){
+
+    }
+    public void getBooksInCategory(){
+
     }
 }

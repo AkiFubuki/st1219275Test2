@@ -10,7 +10,7 @@ public class Book {
     public String category;
     public double price;
 
-    public Book(String title, String author, String ISBN, String category, String price){
+    public Book(String title, String author, String ISBN, double price, String category){
         setTitle(title);
         setAuthor(author);
         setISBN(ISBN);
